@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false" thread-count="2">
+  <test name="Test">
+  <groups>
+  <run>
+  <include name="regression"/>
+   <include name="sanity"/>
+  </run>
+  </groups>
+    <classes>
+      <class name="ihg.AttriTest"/>
+      <class name="testcases.SimpleAnno"/>
+      <class name="Attributes.InvoTest"/>
+      <class name="htmlReports.FirstAuomationTest"/>
+      <class name="ihg.PriAttributesTest"/>
+      <class name="ihg.TC02Test"/>
+      <class name="ihg.AjayDataProvider"/>
+      <class name="testcases.AnnotationsTestNG"/>
+      <class name="ihg.TC01Test"/>
+      <class name="ihg.SampleTest"/>
+      <class name="ihg.DataConceptTest"/>
+      <class name="ihg.HandlingAlerts"/>
+      <class name="ihg.IHGJoinPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

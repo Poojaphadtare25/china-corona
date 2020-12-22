@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="classes">
+  <test thread-count="3" verbose="0" name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="ihg.IHGJoinPageTest">
+        <methods>
+          <include name="rama"/>
+        </methods>
+      </class> <!-- ihg.IHGJoinPageTest -->
+      <class name="ihg.SampleTest">
+        <methods>
+          <include name="rama"/>
+        </methods>
+      </class> <!-- ihg.SampleTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
